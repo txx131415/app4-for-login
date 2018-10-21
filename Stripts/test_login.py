@@ -1,4 +1,4 @@
-import sys, os
+import sys, os,allure
 
 sys.path.append(os.getcwd())
 import pytest
@@ -29,7 +29,7 @@ class Test_Login:
 
     def teardown_class(self):
         self.page_obj.driver.quit()
-
+    @allure.step(title='预期成功用例')
     @pytest.mark.parametrize("test_num,phone,passwd,tag,tag_message,expect_result", get_login_data())
     def test_login(self, test_num, phone, passwd, tag, tag_message, expect_result):
         """

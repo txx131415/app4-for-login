@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+import allure
 
 
 class Base(object):
@@ -28,6 +29,7 @@ class Base(object):
         input_text.clear()
         input_text.send_keys(text)
 
+    @allure.step(title='滑动操作')
     def sreen_scrool(self, tag):
         """页面滑动
          tag  1---向上滑动  2--向下滑动 3--向左滑动 4--向右滑动
@@ -40,15 +42,19 @@ class Base(object):
         height = screen_size.get("height")
 
         if tag == 1:
+            allure.attach('tag=1', '向上滑动')
             self.driver.swipe(width * 0.5, height * 0.8, width * 0.5, height * 0.3, 1000)
         if tag == 2:
+            allure.attach('tag=2', '向下滑动')
             self.driver.swipe(width * 0.5, height * 0.3, width * 0.5, height * 0.8, 1000)
         if tag == 3:
+            allure.attach('tag=3', '向左滑动')
             self.driver.swipe(width * 0.8, height * 0.5, width * 0.3, height * 0.5, 1000)
         if tag == 4:
+            allure.attach('tag=4', '向右滑动')
             self.driver.swipe(width * 0.3, height * 0.5, width * 0.8, height * 0.5, 1000)
 
-
+    @allure.step(title='获取toast消息操作')
     def get_toast(self, mess):
         """
         获取toast消息
@@ -58,4 +64,5 @@ class Base(object):
         # 定位错误提示消息
         toast_xpath = "//*[contains(@text,'{}')]".format(mess)
         toast_message = self.search_element((By.XPATH, toast_xpath), timeout=5, poll_frequency=0.1).text
+        allure.attach('toast文本为,{}'.format(toast_message))
         return toast_message

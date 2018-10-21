@@ -1,5 +1,7 @@
 import time
 
+import allure
+
 from Base.base import Base
 import Page
 
@@ -8,6 +10,7 @@ class Setting_Page(Base):
     def __init__(self, driver):
         Base.__init__(self, driver)
 
+    @allure.step(title='退出登录操作')
     def login_out(self, tag):
         time.sleep(2)
         # 先滑倒最底部 点击退出 再点击确定(默认退出)
