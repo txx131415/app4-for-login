@@ -10,6 +10,6 @@ def get_driver(pag, act):
     desired_caps['appActivity'] = act
     desired_caps['automationName'] = 'Uiautomator2'
 
-    return webdriver.Remote("http://192.168.45.27:4723/wd/hub", desired_caps)
+    return webdriver.Remote("http://192.168.45.32:4723/wd/hub", desired_caps)
 
 
