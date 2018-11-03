@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
+
 import allure
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Base(object):
@@ -66,3 +67,4 @@ class Base(object):
         toast_message = self.search_element((By.XPATH, toast_xpath), timeout=5, poll_frequency=0.1).text
         allure.attach('toast文本为,{}'.format(toast_message))
         return toast_message
+

@@ -1,0 +1,1 @@
+allure generate report_project/ -o report/html --clean

@@ -1,0 +1,60 @@
+{
+  "uid" : "62132a9dd404314a",
+  "name" : "Test_01.test_001",
+  "fullName" : "test_001.Test_01.test_001",
+  "historyId" : "45c0dc354dc3552a9655cf58ffc6fa40",
+  "time" : {
+    "start" : 1541225250915,
+    "stop" : 1541225250917,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "txxdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4879-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_01.test_001"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62132a9dd404314a.json",
+  "parameterValues" : [ ]
+}
