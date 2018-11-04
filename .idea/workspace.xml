@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17de613d-60a8-473c-9071-78a903e6b31d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stripts/test_001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stripts/test_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report_project/466276fb-d34d-477a-91ec-4f37c1e28215-testsuite.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,43 +13,45 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/app4_for_login$pytest_for_test_testAdd_TestTestAdd_test_add.coverage" NAME="pytest for test_testAdd.TestTestAdd.test_add Coverage Results" MODIFIED="1540211803903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.pytest_cache/test" />
+    <SUITE FILE_PATH="coverage/app4_for_login$test_requests.coverage" NAME="test_requests Coverage Results" MODIFIED="1541239995552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stripts" />
     <SUITE FILE_PATH="coverage/app4_for_login$test_001.coverage" NAME="test_001 Coverage Results" MODIFIED="1541225093252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stripts" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1443957924">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="py" value="23" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="1" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
           <entry key="ini" value="3" />
-          <entry key="py" value="942" />
+          <entry key="py" value="984" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="3" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="942" />
+          <entry key="Python" value="984" />
         </counts>
       </usages-collector>
     </session>
@@ -71,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="242">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -80,14 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stripts/test_001.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1541225231000" expanded="true" signature="41:46" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stripts/test_requests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -130,6 +138,7 @@
         <option value="$PROJECT_DIR$/Base/base.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/Stripts/test_001.py" />
+        <option value="$PROJECT_DIR$/Stripts/test_requests.py" />
       </list>
     </option>
   </component>
@@ -170,11 +179,6 @@
             <path>
               <item name="app4-for-login" type="b2602c69:ProjectViewProjectNode" />
               <item name="app4-for-login" type="462c0819:PsiDirectoryNode" />
-              <item name="report_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app4-for-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app4-for-login" type="462c0819:PsiDirectoryNode" />
               <item name="Stripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -202,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_001">
+  <component name="RunManager" selected="Python.test_requests">
     <configuration name="test_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="app4-for-login" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +221,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stripts/test_001.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="app4-for-login" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stripts/test_requests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,9 +270,11 @@
     <list>
       <item itemvalue="Python tests.pytest for test_testAdd.TestTestAdd.test_add" />
       <item itemvalue="Python.test_001" />
+      <item itemvalue="Python.test_requests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_requests" />
         <item itemvalue="Python.test_001" />
         <item itemvalue="Python tests.pytest for test_testAdd.TestTestAdd.test_add" />
       </list>
@@ -272,8 +300,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14735337" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14949928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Base/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="242">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -387,10 +416,17 @@
     <entry file="file://$PROJECT_DIR$/Stripts/test_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <marker date="1541225231000" expanded="true" signature="41:46" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stripts/test_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
